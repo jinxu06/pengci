@@ -1,0 +1,53 @@
+.routine-indicator
+{
+    margin:20px 0;
+    .routine-circle
+    {
+        width:20px;
+        height:20px;
+        border-radius:50%;
+        border:1px solid @gray;
+        background-color:#fff;
+        position:relative;
+        float:left;
+        z-index:1;
+    }
+    .routine-line
+    {
+        width:150px;
+        height:10px;
+        border:1px solid @gray;
+        border-width:1px 0;
+        background-color:#fff;
+        margin:5px -2px;
+        float:left;
+        position:relative;
+        z-index:2;
+    }
+    .routine-number
+    {
+        margin:0;
+        line-height:20px;
+    }
+    .routine-text
+    {
+        margin:0;
+        line-height:10px;
+        position:relative;
+        bottom:15px;
+    }
+    .routine-processed
+    {
+        background-color:@brand-success;
+    }
+    .routine-processed.routine-circle
+    {
+        z-index:3;
+        color:#fff;
+    }
+    .routine-processed.routine-line
+    {
+        z-index:4;
+        color:@gray-light;
+    }
+}

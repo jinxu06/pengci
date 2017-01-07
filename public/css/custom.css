@@ -1,0 +1,803 @@
+body {
+  background-color: #fffff9;
+}
+div.header {
+  background-color: #f6f6f1;
+}
+a.custom-link,
+a.custom-link:hover {
+  color: #825d5b;
+  text-decoration: none;
+}
+a.custom-link:hover {
+  color: #a88482;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #825d5b;
+}
+.navbar.navbar-default.navbar-normal {
+  background-color: #f6f6f1;
+  border-width: 0;
+  border-bottom: 2px solid #825d5b;
+  border-radius: 0;
+  padding-left: 90px;
+  padding-right: 40px;
+}
+.navbar.navbar-default.navbar-normal ul.navbar-nav > li > a {
+  color: #825d5b;
+  padding: 5px;
+  margin: 10px;
+  background-color: transparent;
+  border: 2px solid transparent;
+}
+.navbar.navbar-default.navbar-normal ul.navbar-nav > li > a:hover {
+  border-bottom: 2px solid #825d5b;
+  background-color: transparent;
+}
+.navbar.navbar-default.navbar-normal ul.navbar-nav > .active > a {
+  border-bottom: 2px solid #825d5b;
+  background-color: transparent;
+}
+.navbar.navbar-default.navbar-normal .navbar-header > .navbar-brand {
+  margin-right: 40px;
+  color: #825d5b;
+  font-weight: 900;
+}
+.navbar.navbar-default.navbar-transparent {
+  background-color: #f6f6f1;
+  border-width: 0;
+  border-bottom: 2px solid #825d5b;
+  border-radius: 0;
+  padding-left: 90px;
+  padding-right: 40px;
+  border-bottom: 0;
+  background-color: transparent;
+}
+.navbar.navbar-default.navbar-transparent ul.navbar-nav > li > a {
+  color: #825d5b;
+  padding: 5px;
+  margin: 10px;
+  background-color: transparent;
+  border: 2px solid transparent;
+}
+.navbar.navbar-default.navbar-transparent ul.navbar-nav > li > a:hover {
+  border-bottom: 2px solid #825d5b;
+  background-color: transparent;
+}
+.navbar.navbar-default.navbar-transparent ul.navbar-nav > .active > a {
+  border-bottom: 2px solid #825d5b;
+  background-color: transparent;
+}
+.navbar.navbar-default.navbar-transparent .navbar-header > .navbar-brand {
+  margin-right: 40px;
+  color: #825d5b;
+  font-weight: 900;
+}
+.navbar.navbar-default.navbar-transparent ul.navbar-nav > li > a {
+  color: #fff;
+}
+.navbar.navbar-default.navbar-transparent ul.navbar-nav > li > a:hover {
+  border-bottom: 0;
+  color: #cccccc;
+}
+.navbar.navbar-default.navbar-transparent ul.navbar-nav > .active > a {
+  border-bottom: 0;
+  color: #cccccc;
+}
+.navbar.navbar-default.navbar-transparent .navbar-header > .navbar-brand {
+  color: #fff;
+}
+.nav.nav-pills.nav-collection {
+  border-radius: 0;
+  background-color: #f6f6f1;
+  color: #825d5b;
+}
+.nav.nav-pills.nav-collection li.active > a {
+  color: #fff;
+  background-color: #825d5b;
+}
+.nav.nav-pills.nav-collection li a {
+  color: #825d5b;
+  border-radius: 0;
+  padding: 2px 10px;
+  background-color: transparent;
+}
+.nav.nav-pills.nav-collection li a:hover {
+  color: #fff;
+  background-color: #825d5b;
+}
+.table-striped select {
+  margin: 0;
+  height: 24px;
+}
+.table-striped td {
+  padding: 6px;
+}
+.table-striped .book-td {
+  max-width: 180px;
+}
+.table-striped .chapter-td {
+  max-width: 180px;
+}
+table#illustration td {
+  padding: 0 10px;
+}
+#bookpage-chapters table.table-chapters tr > td {
+  padding: 0;
+  vertical-align: middle !important;
+  background-color: transparent;
+}
+#bookpage-chapters table.table-chapters td.chapter-title {
+  width: 40%;
+}
+#bookpage-chapters table.table-chapters td.chapter-title .chapter-heading {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  max-height: 30px;
+}
+#bookpage-chapters table.table-chapters td.button-td {
+  width: 10%;
+  text-align: center;
+}
+#bookpage-chapters table.table-chapters td.button-td button {
+  border-width: 0;
+  background-color: transparent;
+}
+#bookpage-chapters table.table-chapters td.progress-td {
+  width: 40%;
+}
+#bookpage-chapters table.table-chapters td.progress-td div.progress {
+  margin-top: 18px;
+  height: 15px;
+}
+#bookpage-chapters table.table-chapters td.state-td {
+  width: 10%;
+  text-align: center;
+}
+#bookpage-chapters table.table-chapters td.state-td span {
+  display: inline-block;
+}
+.routine-indicator {
+  margin: 20px 0;
+}
+.routine-indicator .routine-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #555555;
+  background-color: #fff;
+  position: relative;
+  float: left;
+  z-index: 1;
+}
+.routine-indicator .routine-line {
+  width: 150px;
+  height: 10px;
+  border: 1px solid #555555;
+  border-width: 1px 0;
+  background-color: #fff;
+  margin: 5px -2px;
+  float: left;
+  position: relative;
+  z-index: 2;
+}
+.routine-indicator .routine-number {
+  margin: 0;
+  line-height: 20px;
+}
+.routine-indicator .routine-text {
+  margin: 0;
+  line-height: 10px;
+  position: relative;
+  bottom: 15px;
+}
+.routine-indicator .routine-processed {
+  background-color: #5cb85c;
+}
+.routine-indicator .routine-processed.routine-circle {
+  z-index: 3;
+  color: #fff;
+}
+.routine-indicator .routine-processed.routine-line {
+  z-index: 4;
+  color: #777777;
+}
+.word-pick {
+  width: 160px;
+  display: inline-block;
+  background-color: #fff;
+  border: 1px solid #eeeeee;
+  padding: 2px 10px;
+  margin: 6px 1px;
+}
+.word-pick .input {
+  margin: 0;
+}
+.flashcard {
+  margin-top: 20px;
+  width: 600px;
+  background-color: #f6f4ec;
+}
+.flashcard .bookinfo {
+  background-color: #fffff9;
+  color: #777777;
+}
+.flashcard .progress {
+  height: 20px;
+  width: 100%;
+  margin-bottom: 0;
+}
+.flashcard .card {
+  height: 330px;
+  width: 100%;
+  overflow: scroll;
+  padding: 20px 40px;
+  background-color: #f6f6f1;
+}
+.flashcard .btn-group {
+  height: 50px;
+  width: 100%;
+}
+.flashcard .btn-group button {
+  width: 50%;
+  height: 100%;
+}
+body,
+html {
+  height: 100%;
+}
+.reading-context {
+  height: 100%;
+  width: 100%;
+  background-color: #e5e4db;
+}
+.reading-context > .reading-toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.reading-context .btn-toggle {
+  position: fixed;
+  top: 45%;
+  margin-left: 10px;
+  background-color: #efecde;
+  border-width: 0;
+  height: 10%;
+  visibility: hidden;
+}
+.reading-context .btn-toggle:active {
+  border-width: 0;
+}
+.reading-panel {
+  height: 100%;
+  width: 700px;
+  position: relative;
+  background-color: #f6f4ec;
+}
+.reading-panel .reading-bookmark {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border: 20px solid #dddddd;
+  border-bottom-color: #f6f4ec;
+}
+.reading-panel .reading-toolbar {
+  position: fixed;
+  top: 0;
+  margin-left: 660px;
+}
+.reading-panel .reading-pagination {
+  position: fixed;
+  bottom: 0;
+  margin-left: 660px;
+}
+.reading-toolbar,
+.reading-pagination {
+  border-radius: 0;
+}
+.reading-toolbar button,
+.reading-pagination button {
+  border-width: 0;
+  background-color: #e5e4db;
+}
+.content-list {
+  background-color: #f6f4ec;
+}
+.content-list a {
+  display: block;
+}
+.content-list a:hover {
+  text-decoration: none;
+  background-color: #825d5b;
+}
+.content-list a:hover h4 {
+  color: #fff;
+}
+#flashcard-step1 .modal-body {
+  padding: 0;
+}
+#flashcard-step1 .modal-body .progress {
+  border-radius: 0;
+  height: 4px;
+  margin-bottom: 0;
+}
+#flashcard-step1 .modal-body .flashcard-content {
+  padding: 20px;
+}
+#flashcard-step1 .modal-body .flashcard-content .flashcard-word {
+  margin: 5px;
+}
+#flashcard-step1 .modal-body .flashcard-content .step-hint {
+  position: relative;
+  top: 12px;
+  margin-left: 20px;
+}
+#flashcard-step1 .modal-body .flashcard-content .step-hint .step-bar {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: 2px solid #eeeeee;
+}
+#flashcard-step1 .modal-body .flashcard-content .flashcard-tag {
+  position: relative;
+  top: 4px;
+}
+#flashcard-step1 .modal-body .flashcard-content .flashcard-tag > button {
+  border: 0;
+}
+#flashcard-step1 .modal-body .flashcard-content .flashcard-sentence {
+  margin-top: 20px;
+  color: #777777;
+}
+#flashcard-step1 .modal-body .flashcard-content .flashcard-sentence strong {
+  font-size: 120%;
+}
+#flashcard-step1 .modal-body .flashcard-content .flashcard-explain {
+  margin-top: 32px;
+}
+#flashcard-step1 .modal-body .flashcard-content .flashcard-explain td {
+  padding: 16px 8px;
+}
+#flashcard-step1 .modal-body .flashcard-content .flashcard-explain td .radio {
+  margin: 0;
+}
+#flashcard-step1 .modal-footer {
+  padding: 0;
+}
+#flashcard-step1 .modal-footer button {
+  border-radius: 0;
+  margin: 0;
+  padding: 12px 20px;
+}
+#flashcard-step2 .modal-body {
+  padding: 0;
+}
+#flashcard-step2 .modal-body .progress {
+  border-radius: 0;
+  height: 4px;
+  margin-bottom: 0;
+}
+#flashcard-step2 .modal-body .flashcard-content {
+  padding: 20px;
+}
+#flashcard-step2 .modal-body .flashcard-content .flashcard-word {
+  margin: 5px;
+}
+#flashcard-step2 .modal-body .flashcard-content .step-hint {
+  position: relative;
+  top: 12px;
+  margin-left: 20px;
+}
+#flashcard-step2 .modal-body .flashcard-content .step-hint .step-bar {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: 2px solid #eeeeee;
+}
+#flashcard-step2 .modal-body .flashcard-content .flashcard-tag {
+  position: relative;
+  top: 4px;
+}
+#flashcard-step2 .modal-body .flashcard-content .flashcard-tag > button {
+  border: 0;
+}
+#flashcard-step2 .modal-body .flashcard-content .flashcard-sentence {
+  margin-top: 20px;
+  color: #777777;
+}
+#flashcard-step2 .modal-body .flashcard-content .flashcard-sentence strong {
+  font-size: 120%;
+}
+#flashcard-step2 .modal-body .flashcard-content .flashcard-explain {
+  margin-top: 32px;
+}
+#flashcard-step2 .modal-body .flashcard-content .flashcard-explain td {
+  padding: 16px 8px;
+}
+#flashcard-step2 .modal-body .flashcard-content .flashcard-explain td .radio {
+  margin: 0;
+}
+#flashcard-step2 .modal-footer {
+  padding: 0;
+}
+#flashcard-step2 .modal-footer button {
+  border-radius: 0;
+  margin: 0;
+  padding: 12px 20px;
+}
+#flashcard-step3 .modal-body {
+  padding: 0;
+}
+#flashcard-step3 .modal-body .progress {
+  border-radius: 0;
+  height: 4px;
+  margin-bottom: 0;
+}
+#flashcard-step3 .modal-body .flashcard-content {
+  padding: 20px;
+}
+#flashcard-step3 .modal-body .flashcard-content .flashcard-word {
+  margin: 5px;
+}
+#flashcard-step3 .modal-body .flashcard-content .step-hint {
+  position: relative;
+  top: 12px;
+  margin-left: 20px;
+}
+#flashcard-step3 .modal-body .flashcard-content .step-hint .step-bar {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: 2px solid #eeeeee;
+}
+#flashcard-step3 .modal-body .flashcard-content .flashcard-tag {
+  position: relative;
+  top: 4px;
+}
+#flashcard-step3 .modal-body .flashcard-content .flashcard-tag > button {
+  border: 0;
+}
+#flashcard-step3 .modal-body .flashcard-content .flashcard-sentence {
+  margin-top: 20px;
+  color: #777777;
+}
+#flashcard-step3 .modal-body .flashcard-content .flashcard-sentence strong {
+  font-size: 120%;
+}
+#flashcard-step3 .modal-body .flashcard-content .flashcard-explain {
+  margin-top: 32px;
+}
+#flashcard-step3 .modal-body .flashcard-content .flashcard-explain td {
+  padding: 16px 8px;
+}
+#flashcard-step3 .modal-body .flashcard-content .flashcard-explain td .radio {
+  margin: 0;
+}
+#flashcard-step3 .modal-footer {
+  padding: 0;
+}
+#flashcard-step3 .modal-footer button {
+  border-radius: 0;
+  margin: 0;
+  padding: 12px 20px;
+}
+.pie {
+  width: 50px;
+  height: 50px;
+  display: block;
+  position: relative;
+  left: 249px;
+  border-radius: 50%;
+  background-color: #1fbba6;
+  margin: 5px;
+}
+.pie .block {
+  position: absolute;
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  display: block;
+  border-radius: 50%;
+  top: 5px;
+  left: 5px;
+}
+#time {
+  font-size: 1em;
+  position: absolute;
+  top: 15px;
+  left: 21.1px;
+  color: #999999;
+}
+.degree {
+  /*90 + ( 360 * .1 )*/
+  background-image: linear-gradient(90deg, transparent 50%, #ffffff 50%), linear-gradient(90deg, #ffffff 50%, transparent 50%);
+}
+.answer-correct {
+  background-color: #5cb85c !important;
+}
+.answer-wrong {
+  background-color: #f0ad4e !important;
+}
+.alert-danger {
+  padding: 2px 5px;
+  border-radius: 0;
+}
+.nav.nav-tabs > li > a {
+  color: #825d5b !important;
+}
+.tab-content > .tab-pane {
+  padding: 20px;
+}
+/*
+//@import "bookdisplay.less";
+*/
+.container-header {
+  margin-top: 50px;
+  padding: 30px 40px 0px 105px;
+  width: 100%;
+  background-color: #f6f6f1;
+}
+.container-header .header-heading {
+  margin-bottom: 40px;
+}
+.container-body {
+  width: 100%;
+  padding: 30px 40px 0px 105px;
+  min-height: 360px;
+}
+.book-cover {
+  width: 110px;
+  height: 164px;
+  background-color: #eeeeee;
+  padding: 10px;
+  position: relative;
+  line-height: 1.1;
+  font-size: 12px;
+  text-align: center;
+}
+.book-cover .book-title {
+  font-size: 14px;
+  height: 46.2px;
+  margin: 10px 0;
+}
+.book-cover .book-author {
+  height: 13.2px;
+}
+.book-cover .book-press {
+  position: absolute;
+  bottom: 10px;
+  width: 90px;
+}
+.book-display-brief,
+.book-display-normal,
+.book-display-detail {
+  border: 1px solid #dddddd;
+  position: relative;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1.1;
+  border-radius: 4px;
+  -webkit-transition: border 0.2s ease-in-out;
+  -o-transition: border 0.2s ease-in-out;
+  transition: border 0.2s ease-in-out;
+}
+a.book-display-brief,
+a.book-display-normal,
+a.book-display-detail {
+  color: #333333;
+}
+a.book-display-brief:hover,
+a.book-display-normal:hover,
+a.book-display-detail:hover,
+a.book-display-brief:focus,
+a.book-display-normal:focus,
+a.book-display-detail:focus,
+a.book-display-brief.active,
+a.book-display-normal.active,
+a.book-display-detail.active {
+  border-color: #825d5b;
+  text-decoration: none;
+}
+.book-display-brief {
+  width: 130px;
+  height: 210px;
+  padding: 10px;
+  margin-bottom: 40px;
+  margin-right: 20px;
+}
+.book-display-brief .book-level {
+  font-size: 12px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.book-display-brief .book-viewed {
+  font-size: 12px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.book-display-normal {
+  width: 280px;
+  height: 184px;
+  padding: 10px;
+  background-color: #fff;
+  margin-bottom: 40px;
+  margin-right: 20px;
+}
+.book-display-normal .book-cover {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.book-display-normal .book-info {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 140px;
+  height: 164px;
+  padding: 10px;
+}
+.book-display-normal .book-info .book-info-item {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.book-display-normal .book-info .book-info-item .key {
+  color: #777777;
+  font-weight: 700;
+}
+.book-display-normal .book-info .book-info-item .value {
+  color: #333333;
+}
+.book-display-normal .book-info .book-title {
+  max-height: 30px;
+}
+.book-display-normal .book-info .book-author {
+  max-height: 15px;
+}
+.book-display-normal .book-info .book-progress {
+  max-height: 30px;
+}
+.book-display-detail {
+  width: 740px;
+  height: 240px;
+  padding: 10px;
+  background-color: #fff;
+  margin-bottom: 40px;
+}
+.book-display-detail .book-info {
+  position: absolute;
+  left: 10px;
+  width: 400px;
+  height: 220px;
+  padding: 20px;
+}
+.book-display-detail .book-info .book-info-item {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.book-display-detail .book-info .book-info-item .key {
+  color: #777777;
+  font-weight: 700;
+}
+.book-display-detail .book-info .book-info-item .value {
+  color: #333333;
+}
+.book-display-detail .book-info .book-introduction {
+  height: 45px;
+}
+.book-display-detail .book-info .book-title {
+  height: 20px;
+}
+.book-display-detail .book-info .book-author {
+  height: 20px;
+}
+.book-display-detail .book-info .book-category {
+  height: 20px;
+}
+.book-display-detail .book-cover {
+  position: absolute;
+  left: 420px;
+  top: 38px;
+}
+.book-display-detail .book-control {
+  position: absolute;
+  right: 10px;
+  width: 150px;
+  height: 220px;
+}
+.book-display-detail .book-control .book-control-bookshelf {
+  width: 120px;
+  position: absolute;
+  left: 15px;
+  top: 60px;
+}
+.book-display-detail .book-control .book-control-read {
+  width: 120px;
+  position: absolute;
+  left: 15px;
+  top: 120px;
+}
+.book-display-ultra {
+  margin-top: 40px;
+}
+.book-display-ultra .book-cover {
+  margin-left: 100px;
+}
+.book-display-ultra .book-control {
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.book-display-ultra .book-control .btn {
+  width: 110px;
+}
+.book-display-ultra .book-info {
+  width: 300px;
+  height: 240px;
+  font-size: 14px;
+}
+.book-display-ultra .book-info .book-info-item {
+  display: block;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.book-display-ultra .book-info .book-info-item .key {
+  color: #777777;
+  font-weight: 700;
+}
+.book-display-ultra .book-info .book-info-item .value {
+  color: #333333;
+}
+.book-display-ultra .book-info .book-title {
+  font-size: 18px;
+  height: 40px;
+}
+.book-display-ultra .book-info .book-author {
+  height: 20px;
+}
+.book-display-ultra .book-info .book-category {
+  height: 20px;
+}
+.book-display-ultra .book-introduction {
+  margin-top: 40px;
+  font-size: 14px;
+}
+.book-recommend-row {
+  height: 250px;
+  position: relative;
+  margin-bottom: 40px;
+}
+.book-recommend-row .row-anchor {
+  display: block;
+  position: absolute;
+  top: -160px;
+}
+.book-recommend-row .book-recommend-heading {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.book-recommend-row .book-recommend-link {
+  position: absolute;
+  top: 0;
+  right: 24px;
+}
+.book-recommend-row .book-recommend-content {
+  width: 100%;
+  height: 210px;
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+}

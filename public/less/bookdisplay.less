@@ -1,0 +1,142 @@
+.display-row
+{
+    margin-top:40px;
+    h4
+    {
+        margin:0;
+    }
+    .row
+    {
+        margin:20px;
+    }
+}
+
+.book-display-small
+{
+    display:block;
+    &,&:hover,&:active,&:visited
+    {
+      color:@gray-dark;
+      text-decoration:none;
+    } 
+    background-color:#fff;
+    padding:10px;
+    margin-right:20px;
+    margin-bottom:20px;
+    width:130px;
+    height:215px;
+    border:1px solid @gray-lighter;
+    float:left;
+    .book-cover
+    {
+        position:relative;
+        width:110px;
+        height:164px;
+        padding:4px;
+        background-color:@gray-lighter;
+        margin-bottom:10px;
+        .official-logo
+        {
+            position:absolute;
+            bottom:10px;
+            text-align:center;
+            width:100%;
+        }
+    }
+    h6
+    {
+        margin:0;
+    }
+}
+
+
+.book-display-medium
+{
+    width:290px;
+    position:relative;
+    margin-top:20px;
+    margin-right:20px;
+    display:inline-block;
+    &,&:hover,&:active,&:visited
+    {
+        text-decoration:none;
+        color:@gray-dark;
+    }
+    .book-cover
+    {
+        width:110px;
+        height:164px;
+        background-color:@gray-lighter;
+    }
+    .book-info
+    {
+        width:150px;
+        margin-left:20px;
+    }
+    h5
+    {
+        margin-bottom:5px;
+    }
+}
+
+.book-display-large
+{
+    width:650px;
+    position:relative;
+    margin-top:40px;
+    .book-detail
+    {
+        display:block;
+        &,&:hover,&:active,&:visited
+        {
+            text-decoration:none;
+            color:@gray-dark;
+        }
+        width:480px;
+        padding:10px 20px;
+        background-color:#fff;
+        border:1px solid @gray-lighter;
+        .book-info
+        {
+            width:300px;
+            span.key
+            {
+                color:@gray-light;
+            }
+            .introduction
+            {
+                height:@font-size-h6*5*@headings-line-height;
+                overflow:hidden;
+                text-overflow:ellipsis;
+            }
+        }
+        .book-cover
+        {
+            width:110px;
+            height:164px;
+            background-color:@gray;
+        }
+    }
+    .book-control
+    {
+        width:150px;
+        position:absolute;
+        left:500px;
+        top:0;
+        bottom:0;
+        background-color:#fff;
+        border:1px solid @gray-lighter;
+        .btn-success
+        {
+            position:absolute;
+            top:50px;
+            left:35px;
+        }
+        .btn-warning
+        {
+            position:absolute;
+            left:30px;
+            bottom:50px;
+        }
+    }
+}

@@ -1,0 +1,293 @@
+.book-cover
+{
+    width:110px;
+    height:164px;
+    background-color:@gray-lighter;
+    padding:10px;
+    position:relative;
+    line-height:@headings-line-height;
+    font-size:@font-size-h6;
+    text-align:center;
+    .book-title
+    {
+        font-size:@font-size-h5;
+        height:@font-size-h5*@headings-line-height*3;
+        margin:10px 0;
+    }
+    .book-author
+    {
+        height:@font-size-h6*@headings-line-height*1;
+    }
+    .book-press
+    {
+        position:absolute;
+        bottom:10px;
+        width:90px;
+    }
+}
+
+.book-display-brief,.book-display-normal,.book-display-detail
+{
+    border: 1px solid @thumbnail-border;
+    position:relative;
+    display:inline-block;
+    font-size:@font-size-h6;
+    line-height:@headings-line-height;
+    border-radius: @thumbnail-border-radius;
+    -webkit-transition: border .2s ease-in-out;
+       -o-transition: border .2s ease-in-out;
+          transition: border .2s ease-in-out;
+
+    a&
+    {
+        color:@gray-dark;
+    }
+    a&:hover,a&:focus,a&.active 
+    {
+        border-color: @link-color;
+        text-decoration:none;
+    }
+}
+
+.book-display-brief
+{
+    width:130px;
+    height:210px;
+    padding:10px;
+    margin-bottom:40px;
+    margin-right:20px;
+    .book-level
+    {
+        font-size:@font-size-h6;
+        position:absolute;
+        bottom:10px;
+        left:10px;
+    }
+    .book-viewed
+    {
+        font-size:@font-size-h6;
+        position:absolute;
+        bottom:10px;
+        right:10px;
+    }
+}
+
+.book-display-normal
+{
+    width:280px;
+    height:184px;
+    padding:10px;
+    background-color:#fff;
+    margin-bottom:40px;
+    margin-right:20px;
+    .book-cover
+    {
+        position:absolute;
+        left:10px;
+        top:10px;
+    }
+    .book-info
+    {
+        position:absolute;
+        right:10px;
+        top:10px;
+        width:140px;
+        height:164px;
+        padding:10px;
+        .book-info-item
+        {
+            display:block;
+            margin-bottom:10px;
+            width:100%;
+            .key
+            {
+                color:@gray-light;
+                font-weight:700;
+            }
+            .value
+            {
+                color:@gray-dark;
+            }
+        }
+        .book-title
+        {
+            max-height:30px;
+        }
+        .book-author
+        {
+            max-height:15px;
+        }
+        .book-progress
+        {
+            max-height:30px;
+        }
+    }
+}
+
+.book-display-detail
+{
+    width:740px;
+    height:240px;
+    padding:10px;
+    background-color:#fff;
+    margin-bottom:40px;
+    .book-info
+    {
+        position:absolute;
+        left:10px;
+        width:400px;
+        height:220px;
+        padding:20px;
+        .book-info-item
+        {
+            display:block;
+            margin-bottom:10px;
+            width:100%;
+            .key
+            {
+                color:@gray-light;
+                font-weight:700;
+            }
+            .value
+            {
+                color:@gray-dark;
+            }
+        }
+        .book-introduction
+        {
+            height:45px;
+        }
+        .book-title
+        {
+            height:20px;
+        }
+        .book-author
+        {
+            height:20px;
+        }
+        .book-category
+        {
+            height:20px;
+        }
+    }
+    .book-cover
+    {
+        position:absolute;
+        left:420px;
+        top:38px;
+    }
+    .book-control
+    {
+        position:absolute;
+        right:10px;
+        width:150px;
+        height:220px;
+        .book-control-bookshelf
+        {
+            width:120px;
+            position:absolute;
+            left:15px;
+            top:60px;
+        }
+        .book-control-read
+        {
+            width:120px;
+            position:absolute;
+            left:15px;
+            top:120px;
+        }
+    }
+}
+
+.book-display-ultra
+{
+    margin-top:40px;
+    .book-cover
+    {
+        margin-left:100px;
+    }
+    .book-control
+    {
+        margin-left:100px;
+        margin-top:20px;
+        .btn
+        {
+            width:110px;
+        }
+    }
+    .book-info
+    {
+        width:300px;
+        height:240px;
+        font-size:@font-size-h5;
+        .book-info-item
+        {
+            display:block;
+            margin-bottom:15px;
+            width:100%;
+            .key
+            {
+                color:@gray-light;
+                font-weight:700;
+            }
+            .value
+            {
+                color:@gray-dark;
+            }
+        }
+        .book-title
+        {
+            font-size:@font-size-h4;
+            height:40px;
+        }
+        .book-author
+        {
+            height:20px;
+        }
+        .book-category
+        {
+            height:20px;
+        }
+    }
+    .book-introduction
+    {
+        margin-top:40px;
+        font-size:@font-size-h5;
+    }
+}
+
+
+.book-recommend-row
+{
+    height:250px;
+    position:relative;
+    margin-bottom:40px;
+    .row-anchor
+    {
+        display:block;
+        position:absolute;
+        top:-160px;
+    }
+    .book-recommend-heading
+    {
+        margin:0;
+        position:absolute;
+        top:0;
+        left:0;
+    }
+    .book-recommend-link
+    {
+        position:absolute;
+        top:0;
+        right:24px;
+    }
+    .book-recommend-content
+    {
+        width:100%;
+        height:210px;
+        position:absolute;
+        bottom:0;
+        overflow:hidden;
+    }
+
+}
